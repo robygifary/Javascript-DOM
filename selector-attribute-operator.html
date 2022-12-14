@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Attribute Operator</title>
+  </head>
+  <body>
+    <div class="robby">Robby</div>
+    <div class="tamaragifary">Tamara</div>
+    <div class="gifaryroby">Gifary</div>
+
+    <script>
+      const list = document.querySelectorAll('div[class^=robby]');
+      console.info(list);
+    </script>
+  </body>
+</html>
